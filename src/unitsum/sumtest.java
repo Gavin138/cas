@@ -8,16 +8,16 @@ import org.junit.jupiter.api.Test;
 
 class sumtest {
 	
-	static sum test1;
+	static sum test;
 
 	@BeforeAll
 	static void setUpBeforeClass() throws Exception {
-		test1 = new sum();
+		test = new sum();
 	}
 
 	@Test
 	void test() {
-		int tes=test1.sum;
+		int tes=test.sum;
 		assertEquals(4,tes);
 	}
 
